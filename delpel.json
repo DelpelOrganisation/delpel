@@ -1,0 +1,995 @@
+{
+    "header": {
+        "ROI name in rtStruct": "found corresponding name",
+        "id": "Patient id at CLB",
+        "key": "ipp research",
+        "treatment id": "TreatmentID value found in .INI file"
+    },
+    "patients": {
+        "102808406": {
+            "2.16.840.1.114337.1.1.1429770680.0": {
+                "ReferenceUID": "2.16.840.1.114337.1.1.1429770680.0",
+                "Structures": {
+                    "0_patient": "Patient",
+                    "1_VessieExt": "Bladder_ext",
+                    "2_RectumExt": "Rectum_ext",
+                    "3_TetefemoraleD": "Femoral_heads",
+                    "4_TeteFemoraleG": "Femoral_heads",
+                    "5_CTVPROSTATE": "CTV_prostate",
+                    "6_CTV-VS": "CTV_VS",
+                    "7_GTV": "GTV",
+                    "8_PTVBR": "PTV_prostate_VS"
+                },
+                "treatment id": "1:Prostate"
+            },
+            "2.16.840.1.114337.1.1.1429771737.0": {
+                "ReferenceUID": "2.16.840.1.114337.1.1.1429771737.0",
+                "Structures": {
+                    "0_patient": "Patient",
+                    "1_VessieExt": "Bladder_ext",
+                    "2_RectumExt": "Rectum_ext",
+                    "3_TetefemoraleD": "Femoral_heads",
+                    "4_TeteFemoraleG": "Femoral_heads",
+                    "5_CTVPROSTATE": "CTV_prostate",
+                    "6_CTV-VS": "CTV_VS",
+                    "7_GTV": "GTV",
+                    "8_PTVHR": "PTV_prostate"
+                },
+                "treatment id": "2:Prostate"
+            }
+        },
+        "1095024119": {
+            "1.2.840.113854.98981899124575071095430538024427958743": {
+                "ReferenceUID": "1.2.840.113854.98981899124575071095430538024427958743",
+                "Structures": {
+                    "10_TetefemoraleD": "Femoral_heads",
+                    "11_TeteFemoraleG": "Femoral_heads",
+                    "17_ctvprostate": "CTV_prostate",
+                    "18_CTVN": "CTV_nodes",
+                    "19_INTESTIN": "Gastrointestinal_tract",
+                    "1_patient": "Patient",
+                    "20_OGE": "Liver",
+                    "21_SIGMOIDE": "Gastrointestinal_tract",
+                    "22_PTVHR": "PTV_prostate",
+                    "23_PTVBR": "PTV_prostate_VS",
+                    "24_ParoiRect": "Rectum_wall",
+                    "25_ParoiVessie": "Bladder_wall",
+                    "8_VessieExt": "Bladder_ext",
+                    "9_RectumExt": "Rectum_ext"
+                },
+                "treatment id": "prostate"
+            }
+        },
+        "1141679666": {
+            "2.16.840.1.114337.1.1.1450194205.0": {
+                "ReferenceUID": "2.16.840.1.114337.1.1.1450194205.0",
+                "Structures": {
+                    "0_patient": "Patient",
+                    "10_VessieInt": "Bladder_int",
+                    "1_VessieExt": "Bladder_ext",
+                    "2_RectumExt": "Rectum_ext",
+                    "3_TetefemoraleD": "Femoral_heads",
+                    "4_TeteFemoraleG": "Femoral_heads",
+                    "5_Prostate": "Prostate",
+                    "6_VS": "Seminal_vesicles",
+                    "7_PTVBR": "PTV_prostate_VS",
+                    "8_PTVHR": "PTV_prostate",
+                    "9_RectumInt": "Rectum_int"
+                },
+                "treatment id": "1:Prostate ok kso /"
+            }
+        },
+        "1178084455": {
+            "1.2.840.113854.211725560425351170345817197132582370567.1": {
+                "ReferenceUID": "1.2.840.113854.211725560425351170345817197132582370567.1",
+                "Structures": {
+                    "10_TeteFemoraleD": "Femoral_heads",
+                    "11_TeteFemoraleG": "Femoral_heads",
+                    "12_CTVProstate": "CTV_prostate",
+                    "13_CTVVesiculesSeminales": "Seminal_vesicles",
+                    "1_patient": "Patient",
+                    "27_RECTUMint": "Rectum_int",
+                    "28_VESSIEint": "Bladder_int",
+                    "29_PTVprostate": "PTV_prostate",
+                    "30_ParoiRectale": "Rectum_wall",
+                    "31_ParoiVesicale": "Bladder_wall",
+                    "32_PTVVS": "PTV_VS",
+                    "8_VessieExt": "Bladder_ext",
+                    "9_RectumExt": "Rectum_ext"
+                },
+                "treatment id": "PROSTATE"
+            }
+        },
+        "1190768568": {
+            "1.2.840.113854.258549796541353865800917180931812171060.1": {
+                "ReferenceUID": "1.2.840.113854.258549796541353865800917180931812171060.1",
+                "Structures": {
+                    "10_TetefemoraleD": "Femoral_heads",
+                    "11_TeteFemoraleG": "Femoral_heads",
+                    "17_CTVPROSTATE": "CTV_prostate",
+                    "18_CTVVS": "CTV_VS",
+                    "19_RectumInt": "Rectum_int",
+                    "1_patient": "Patient",
+                    "20_VessieInt": "Bladder_int",
+                    "23_PTV44Gy": "PTV_nodes_lombo",
+                    "24_PTV60Gy": "PTV_nodes",
+                    "8_VessieExt": "Bladder_ext",
+                    "9_RectumExt": "Rectum_ext"
+                },
+                "treatment id": "PROSTATE"
+            }
+        },
+        "1310205867": {
+            "2.16.840.1.114337.1.1.1449565007.0": {
+                "ReferenceUID": "2.16.840.1.114337.1.1.1449565007.0",
+                "Structures": {
+                    "0_patient": "Patient",
+                    "10_Pelvis": "Perineum",
+                    "11_VessieInt": "Bladder_int",
+                    "12_RectumInt": "Rectum_int",
+                    "13_PTVBR": "PTV_prostate_VS",
+                    "14_PTVHR": "PTV_prostate",
+                    "1_VessieExt": "Bladder_ext",
+                    "2_RectumExt": "Rectum_ext",
+                    "3_TetefemoraleD": "Femoral_heads",
+                    "4_TeteFemoraleG": "Femoral_heads",
+                    "5_Bulbe": "Perineum",
+                    "6_Prostate": "Prostate",
+                    "7_VS": "Seminal_vesicles",
+                    "8_canalanal": "Canal_anal",
+                    "9_intestin": "Gastrointestinal_tract"
+                },
+                "treatment id": "1:Prostate"
+            },
+            "2.16.840.1.114337.1.1.1453115614.0": {
+                "ReferenceUID": "2.16.840.1.114337.1.1.1453115614.0",
+                "Structures": {
+                    "0_patient": "Patient",
+                    "10_Pelvis": "Perineum",
+                    "11_VessieInt": "Bladder_int",
+                    "12_RectumInt": "Rectum_int",
+                    "13_PTVBR": "PTV_prostate_VS",
+                    "14_PTVHR": "PTV_prostate",
+                    "1_VessieExt": "Bladder_ext",
+                    "2_RectumExt": "Rectum_ext",
+                    "3_TetefemoraleD": "Femoral_heads",
+                    "4_TeteFemoraleG": "Femoral_heads",
+                    "5_Bulbe": "Perineum",
+                    "6_Prostate": "Prostate",
+                    "7_VS": "Seminal_vesicles",
+                    "8_canalanal": "Canal_anal",
+                    "9_intestin": "Gastrointestinal_tract"
+                },
+                "treatment id": "2:Prostate"
+            }
+        },
+        "138392536": {
+            "2.16.840.1.114337.1.1.1438780193.0": {
+                "ReferenceUID": "2.16.840.1.114337.1.1.1438780193.0",
+                "Structures": {
+                    "0_patient": "Patient",
+                    "10_CTVProstate": "CTV_prostate",
+                    "11_CTV-VS": "CTV_VS",
+                    "1_CTVProstate+VS": "PTV_prostate_VS",
+                    "2_PTV46": "PTV_nodes",
+                    "3_PTV28": "PTV_prostate",
+                    "4_RectumInt": "Rectum_int",
+                    "5_VessieInt": "Bladder_int",
+                    "6_VessieExt": "Bladder_ext",
+                    "7_RectumExt": "Rectum_ext",
+                    "8_TetefemoraleD": "Femoral_heads",
+                    "9_TeteFemoraleG": "Femoral_heads"
+                },
+                "treatment id": "1:prostate abo"
+            },
+            "2.16.840.1.114337.1.1.1442583383.0": {
+                "ReferenceUID": "2.16.840.1.114337.1.1.1442583383.0",
+                "Structures": {
+                    "0_patient": "Patient",
+                    "10_CTVProstate": "CTV_prostate",
+                    "11_CTV-VS": "CTV_VS",
+                    "1_CTVProstate+VS": "PTV_prostate_VS",
+                    "2_PTV46": "PTV_nodes",
+                    "3_PTV28": "PTV_prostate",
+                    "4_RectumInt": "Rectum_int",
+                    "5_VessieInt": "Bladder_int",
+                    "6_VessieExt": "Bladder_ext",
+                    "7_RectumExt": "Rectum_ext",
+                    "8_TetefemoraleD": "Femoral_heads",
+                    "9_TeteFemoraleG": "Femoral_heads"
+                },
+                "treatment id": "2:prostate"
+            }
+        },
+        "1396479930": {
+            "2.16.840.1.114337.1.1.1443018635.0": {
+                "ReferenceUID": "2.16.840.1.114337.1.1.1443018635.0",
+                "Structures": {
+                    "0_patient": "Patient",
+                    "10_PTVhr": "PTV_prostate",
+                    "1_VessieExt": "Bladder_ext",
+                    "2_RectumExt": "Rectum_ext",
+                    "3_TetefemoraleD": "Femoral_heads",
+                    "4_TeteFemoraleG": "Femoral_heads",
+                    "5_Prostate": "Prostate",
+                    "6_GGPTTPELVIS": "PTV_VS",
+                    "7_VessieINT": "Bladder_int",
+                    "8_RectumINT": "Rectum_int",
+                    "9_PTVbr": "PTV_prostate_VS"
+                },
+                "treatment id": "1:PROSTATE"
+            },
+            "2.16.840.1.114337.1.1.1446813253.0": {
+                "ReferenceUID": "2.16.840.1.114337.1.1.1446813253.0",
+                "Structures": {
+                    "0_patient": "Patient",
+                    "10_PTVhr": "PTV_prostate",
+                    "1_VessieExt": "Bladder_ext",
+                    "2_RectumExt": "Rectum_ext",
+                    "3_TetefemoraleD": "Femoral_heads",
+                    "4_TeteFemoraleG": "Femoral_heads",
+                    "5_Prostate": "Prostate",
+                    "6_GGPTTPELVIS": "PTV_VS",
+                    "7_VessieINT": "Bladder_int",
+                    "8_RectumINT": "Rectum_int",
+                    "9_PTVbr": "PTV_prostate_VS"
+                },
+                "treatment id": "2:PROSTATE epe"
+            }
+        },
+        "1717288255": {
+            "1.2.840.113854.143610222575294064549987252541185003505": {
+                "ReferenceUID": "1.2.840.113854.143610222575294064549987252541185003505",
+                "Structures": {
+                    "10_TetefemoraleD": "Femoral_heads",
+                    "11_TeteFemoraleG": "Femoral_heads",
+                    "12_Bulbe": "Perineum",
+                    "17_Rectum": "Rectum_ext",
+                    "18_Vessie": "Bladder_ext",
+                    "19_CTVVS": "CTV_VS",
+                    "1_patient": "Patient",
+                    "20_CTVProstate": "CTV_prostate",
+                    "21_VESSIEextProf": "Bladder_ext",
+                    "22_RECTUMextProf": "Rectum_ext",
+                    "23_VESSIEintProf": "Bladder_int",
+                    "24_RECTUMintProf": "Rectum_int",
+                    "25_PTV44Gy": "PTV_nodes_lombo",
+                    "26_PTV60Gy": "PTV_nodes"
+                },
+                "treatment id": "CTVHR-prostate"
+            },
+            "2.16.840.1.114337.1.1.1457026501.0": {
+                "ReferenceUID": "2.16.840.1.114337.1.1.1457026501.0",
+                "Structures": {
+                    "0_patient": "Patient",
+                    "10_VESSIEintProf": "Bladder_int",
+                    "11_RECTUMintProf": "Rectum_int",
+                    "12_PTV44Gy": "PTV_nodes_lombo",
+                    "13_PTV60Gy": "PTV_nodes",
+                    "1_TetefemoraleD": "Femoral_heads",
+                    "2_TeteFemoraleG": "Femoral_heads",
+                    "3_Bulbe": "Perineum",
+                    "4_Rectum": "Rectum_ext",
+                    "5_Vessie": "Bladder_ext",
+                    "6_CTVVS": "CTV_VS",
+                    "7_CTVProstate": "CTV_prostate",
+                    "8_VESSIEextProf": "Bladder_ext",
+                    "9_RECTUMextProf": "Rectum_ext"
+                },
+                "treatment id": "1:Prostate ok manip/clo"
+            }
+        },
+        "1772237453": {
+            "2.16.840.1.114337.1.1.1389859020.0": {
+                "ReferenceUID": "2.16.840.1.114337.1.1.1389859020.0",
+                "Structures": {
+                    "0_patient": "Patient",
+                    "10_PTV5440cGy": "PTV_nodes_lombo",
+                    "11_PTV5900cGy": "PTV_nodes_lombo",
+                    "12_PTV7040cGy": "PTV_prostate",
+                    "13_RECTUMint": "Rectum_int",
+                    "14_VESSIEint": "Bladder_int",
+                    "15_PTV5440bis": "PTV_nodes_lombo",
+                    "16_PTV5900bis": "PTV_VS",
+                    "17_PTV7040bis": "PTV_prostate",
+                    "18_PTV5440ter": "PTV_nodes_lombo",
+                    "1_VessieExt": "Bladder_ext",
+                    "2_RectumExt": "Rectum_ext",
+                    "3_TetefemoraleD": "Femoral_heads",
+                    "4_TeteFemoraleG": "Femoral_heads",
+                    "5_Prostate": "Prostate",
+                    "6_CTVNobtD": "CTV_nodes",
+                    "7_CTVND": "CTV_nodes",
+                    "8_CTVNG": "CTV_nodes",
+                    "9_SIGMOIDE-INTES": "Gastrointestinal_tract"
+                },
+                "treatment id": "1:Prostate"
+            }
+        },
+        "1805597205": {
+            "1.2.840.113854.332987251473919271593236070398216007022.1": {
+                "ReferenceUID": "1.2.840.113854.332987251473919271593236070398216007022.1",
+                "Structures": {
+                    "10_TetefemoraleD": "Femoral_heads",
+                    "11_TeteFemoraleG": "Femoral_heads",
+                    "17_CTVPROSTATE": "CTV_prostate",
+                    "19_CTVVS": "CTV_VS",
+                    "1_patient": "Patient",
+                    "20_RectumInt": "Rectum_int",
+                    "21_VessieInt": "Bladder_int",
+                    "22_PTV44Gy": "PTV_nodes_lombo",
+                    "23_PTV60Gy": "PTV_nodes",
+                    "8_VessieExt": "Bladder_ext",
+                    "9_RectumExt": "Rectum_ext"
+                },
+                "treatment id": "CTVProstate"
+            }
+        },
+        "1814144229": {
+            "1.2.840.113854.285709045810392853497178549529513738337.1": {
+                "ReferenceUID": "1.2.840.113854.285709045810392853497178549529513738337.1",
+                "Structures": {
+                    "1_RPtransmit": "Undefined",
+                    "27_Patient": "Patient",
+                    "28_paroivessie3mm": "Bladder_wall",
+                    "29_paroirectum3mm": "Rectum_wall",
+                    "31_CTVProstatePP": "CTV_prostate",
+                    "34_CTVVSPP": "CTV_VS",
+                    "35_ptvvspp": "PTV_VS",
+                    "36_PTVprostatePP": "PTV_prostate",
+                    "8_VessieExt": "Bladder_ext",
+                    "9_RectumExt": "Rectum_ext"
+                },
+                "treatment id": "PROSTATE"
+            }
+        },
+        "1934378795": {
+            "2.16.840.1.114337.1.1.1344348913.0": {
+                "ReferenceUID": "2.16.840.1.114337.1.1.1344348913.0",
+                "Structures": {
+                    "0_patient": "Patient",
+                    "11_Clou": "CTV_prostate_VS",
+                    "12_VessieINT": "Bladder_int",
+                    "13_RectumINT": "Rectum_int",
+                    "14_PTV46": "PTV_nodes",
+                    "15_PTV80": "PTV_prostate",
+                    "1_VessieExt": "Bladder_ext",
+                    "2_RectumExt": "Rectum_ext",
+                    "3_TetefemoraleD": "Femoral_heads",
+                    "4_TeteFemoraleG": "Femoral_heads",
+                    "5_Prostate": "Prostate",
+                    "6_VS": "Seminal_vesicles",
+                    "7_il.Primitif": "Bladder_wall",
+                    "8_iliaqueG": "Bladder_ext",
+                    "9_iliaqueD": "Bladder_ext"
+                },
+                "treatment id": "1:PROSTATE"
+            },
+            "2.16.840.1.114337.1.1.1349337664.0": {
+                "ReferenceUID": "2.16.840.1.114337.1.1.1349337664.0",
+                "Structures": {
+                    "0_patient": "Patient",
+                    "11_Clou": "CTV_prostate_VS",
+                    "12_VessieINT": "Bladder_int",
+                    "13_RectumINT": "Rectum_int",
+                    "14_PTV46": "PTV_nodes",
+                    "15_PTV80": "PTV_prostate",
+                    "16_BOITE": "Liver",
+                    "1_VessieExt": "Bladder_ext",
+                    "2_RectumExt": "Rectum_ext",
+                    "3_TetefemoraleD": "Femoral_heads",
+                    "4_TeteFemoraleG": "Femoral_heads",
+                    "5_Prostate": "Prostate",
+                    "6_VS": "Seminal_vesicles",
+                    "7_il.Primitif": "Bladder_wall",
+                    "8_iliaqueG": "Bladder_ext",
+                    "9_iliaqueD": "Bladder_ext"
+                },
+                "treatment id": "2:PROSTATE"
+            }
+        },
+        "206024465": {
+            "2.16.840.1.114337.1.1.1346865488.0": {
+                "ReferenceUID": "2.16.840.1.114337.1.1.1346865488.0",
+                "Structures": {
+                    "0_patient": "Patient",
+                    "10_sigmoide": "Gastrointestinal_tract",
+                    "11_PTV46": "PTV_nodes",
+                    "12_PTV70": "PTV_prostate",
+                    "13_vessieINT": "Bladder_int",
+                    "14_rectumINT": "Rectum_int",
+                    "1_VessieExt": "Bladder_ext",
+                    "2_RectumExt": "Rectum_ext",
+                    "3_TetefemoraleD": "Femoral_heads",
+                    "4_TeteFemoraleG": "Femoral_heads",
+                    "5_Bulbe": "Perineum",
+                    "6_Prostate": "Prostate",
+                    "7_VS": "Seminal_vesicles",
+                    "8_CTVNPelviens": "Noeud_pelvis",
+                    "9_digestif": "Gastrointestinal_tract"
+                },
+                "treatment id": "1:Prostate"
+            },
+            "2.16.840.1.114337.1.1.1349766777.0": {
+                "ReferenceUID": "2.16.840.1.114337.1.1.1349766777.0",
+                "Structures": {
+                    "0_patient": "Patient",
+                    "10_sigmoide": "Gastrointestinal_tract",
+                    "11_PTV46": "PTV_nodes",
+                    "12_PTV70": "PTV_prostate",
+                    "13_vessieINT": "Bladder_int",
+                    "14_rectumINT": "Rectum_int",
+                    "1_VessieExt": "Bladder_ext",
+                    "2_RectumExt": "Rectum_ext",
+                    "3_TetefemoraleD": "Femoral_heads",
+                    "4_TeteFemoraleG": "Femoral_heads",
+                    "5_Bulbe": "Perineum",
+                    "6_Prostate": "Prostate",
+                    "7_VS": "Seminal_vesicles",
+                    "8_CTVNPelviens": "Noeud_pelvis",
+                    "9_digestif": "Gastrointestinal_tract"
+                },
+                "treatment id": "2:Prostate"
+            }
+        },
+        "2076242268": {
+            "1.2.840.113854.119551931678279957686565966681341297715.1": {
+                "ReferenceUID": "1.2.840.113854.119551931678279957686565966681341297715.1",
+                "Structures": {
+                    "10_Intestins": "Gastrointestinal_tract",
+                    "1_Patient": "Patient",
+                    "21_Prostate": "Prostate",
+                    "22_RectumExtProfit": "Rectum_ext",
+                    "23_VS": "Seminal_vesicles",
+                    "24_VessieInt": "Bladder_int",
+                    "25_RectumInt": "Rectum_int",
+                    "26_ParoiRectale": "Rectum_wall",
+                    "27_ParoiRVesicale": "Bladder_wall",
+                    "28_PTV44Gy": "PTV_nodes_lombo",
+                    "29_PTV60Gy": "PTV_nodes",
+                    "2_VessieExt": "Bladder_ext",
+                    "30_VessieExtProfit": "Bladder_ext",
+                    "31_RectumIntProfit": "Rectum_ext",
+                    "32_VessieIntProfit": "Bladder_ext",
+                    "33_PRprofit": "Rectum_wall",
+                    "34_PVprofit": "Bladder_wall",
+                    "3_RectumExt": "Rectum_ext",
+                    "4_TeteFemoraleD": "Femoral_heads",
+                    "5_TeteFemoraleG": "Femoral_heads"
+                },
+                "treatment id": "prostate"
+            }
+        },
+        "2085950885": {
+            "2.16.840.1.114337.1.1.1445249340.0": {
+                "ReferenceUID": "2.16.840.1.114337.1.1.1445249340.0",
+                "Structures": {
+                    "0_patient": "Patient",
+                    "1_VessieExt": "Bladder_ext",
+                    "2_RectumExt": "Rectum_ext",
+                    "3_TetefemoraleD": "Femoral_heads",
+                    "4_TeteFemoraleG": "Femoral_heads",
+                    "5_CTVProstate": "CTV_prostate",
+                    "6_RectumInt": "Rectum_int",
+                    "7_VessieInt": "Bladder_int",
+                    "8_PTVprofit": "Bladder_wall"
+                },
+                "treatment id": "1:Prostate"
+            }
+        },
+        "21272778": {
+            "1.2.840.113854.131546242490825631409557113510065697332.1": {
+                "ReferenceUID": "1.2.840.113854.131546242490825631409557113510065697332.1",
+                "Structures": {
+                    "10_TetefemoraleD": "Femoral_heads",
+                    "11_TeteFemoraleG": "Femoral_heads",
+                    "12_Bulbe": "Perineum",
+                    "13_Prostate": "Prostate",
+                    "14_VS": "Seminal_vesicles",
+                    "15_VessieInt": "Bladder_int",
+                    "16_RectumInt": "Rectum_int",
+                    "17_RectumInt2": "Rectum_int",
+                    "18_VessieInt2": "Bladder_int",
+                    "19_ParoiVesicaleProfit": "Bladder_wall",
+                    "1_patient": "Patient",
+                    "20_ParoiVesicale5mm": "Bladder_wall",
+                    "21_ParoiRectaleProfit": "Rectum_wall",
+                    "22_ParoiRectal5mm": "Rectum_wall",
+                    "23_PTVHR": "PTV_prostate",
+                    "24_PTVBR": "PTV_prostate_VS",
+                    "8_VessieExt": "Bladder_ext",
+                    "9_RectumExt": "Rectum_ext"
+                },
+                "treatment id": "PROSTATE"
+            }
+        },
+        "2136486982": {
+            "2.16.840.1.114337.1.1.1444744844.0": {
+                "ReferenceUID": "2.16.840.1.114337.1.1.1444744844.0",
+                "Structures": {
+                    "0_patient": "Patient",
+                    "1_VessieExt": "Bladder_ext",
+                    "2_RectumExt": "Rectum_ext",
+                    "3_TetefemoraleD": "Femoral_heads",
+                    "4_TeteFemoraleG": "Femoral_heads",
+                    "5_Prostate": "Prostate",
+                    "6_VESSIEint": "Bladder_int",
+                    "7_RECTUMint": "Rectum_int",
+                    "8_PTV78Gy": "PTV_prostate",
+                    "9_PTV78art": "PTV_prostate"
+                },
+                "treatment id": "1:Prostate"
+            }
+        },
+        "241964674": {
+            "2.16.840.1.114337.1.1.1395231393.0": {
+                "ReferenceUID": "2.16.840.1.114337.1.1.1395231393.0",
+                "Structures": {
+                    "0_GTVNMC": "GTV_nodes",
+                    "1_GRELEMC": "Gastrointestinal_tract",
+                    "2_VessieExt": "Bladder_ext",
+                    "3_RectumExt": "Rectum_ext",
+                    "4_TetefemoraleD": "Femoral_heads",
+                    "5_TeteFemoraleG": "Femoral_heads",
+                    "6_Moelle": "Spinal_cord",
+                    "7_PTV66": "PTV_nodes",
+                    "8_PTV54": "PTV_nodes_lombo"
+                },
+                "treatment id": "1:Prostate"
+            }
+        },
+        "281539909": {
+            "1.2.840.113854.302096319735146699914708993124188704812": {
+                "ReferenceUID": "1.2.840.113854.302096319735146699914708993124188704812",
+                "Structures": {
+                    "10_TetefemoraleD": "Femoral_heads",
+                    "11_TeteFemoraleG": "Femoral_heads",
+                    "17_G1": "Lymph_node",
+                    "18_G2": "Lymph_node",
+                    "19_G3": "Lymph_node",
+                    "1_patient": "Patient",
+                    "20_CTVPROSTATE": "CTV_prostate",
+                    "21_CTVVS": "CTV_VS",
+                    "22_ProstateScanInitial": "Prostate",
+                    "23_paroiRectum": "Rectum_wall",
+                    "24_paroiVessie": "Bladder_wall",
+                    "25_PTVPROSTATE": "PTV_prostate",
+                    "27_PTVprostateetVS": "PTV_prostate_VS",
+                    "8_VessieExt": "Bladder_ext",
+                    "9_RectumExt": "Rectum_ext"
+                },
+                "treatment id": "prostate"
+            }
+        },
+        "305865930": {
+            "2.16.840.1.114337.1.1.1450881851.0": {
+                "ReferenceUID": "2.16.840.1.114337.1.1.1450881851.0",
+                "Structures": {
+                    "0_patient": "Patient",
+                    "1_TetefemDte": "Femoral_heads",
+                    "2_TeteFemG": "Femoral_heads",
+                    "3_CTVProstateVS": "PTV_prostate_VS",
+                    "4_vessie": "Bladder_ext",
+                    "5_rectum": "Rectum_ext",
+                    "6_PTV": "PTV_prostate_VS",
+                    "7_RectumINT": "Rectum_int",
+                    "8_VessieINT": "Bladder_int"
+                },
+                "treatment id": "1:Prostate crod"
+            }
+        },
+        "348941746": {
+            "2.16.840.1.114337.1.1.1378916460.0": {
+                "ReferenceUID": "2.16.840.1.114337.1.1.1378916460.0",
+                "Structures": {
+                    "0_patient": "Patient",
+                    "10_reing": "Kidneys",
+                    "11_PTV50Gy": "PTV_nodes_lombo",
+                    "12_PTV78Gy": "PTV_prostate",
+                    "13_PTV78art": "PTV_prostate",
+                    "14_RECTUMint": "Rectum_int",
+                    "15_VESSIEint": "Bladder_int",
+                    "1_CTVN": "CTV_nodes",
+                    "2_sigmoide": "Gastrointestinal_tract",
+                    "3_grele": "Gastrointestinal_tract",
+                    "4_VessieExt": "Bladder_ext",
+                    "5_RectumExt": "Rectum_ext",
+                    "6_TetefemoraleD": "Femoral_heads",
+                    "7_TeteFemoraleG": "Femoral_heads",
+                    "8_Prostate": "Prostate",
+                    "9_reindt": "Kidneys"
+                },
+                "treatment id": "1:Prostate148c"
+            }
+        },
+        "383841863": {
+            "1.2.840.113854.5144689684221117810341949672143260724.1": {
+                "ReferenceUID": "1.2.840.113854.5144689684221117810341949672143260724.1",
+                "Structures": {
+                    "10_TeteFemoraleD": "Femoral_heads",
+                    "11_TeteFemoraleG": "Femoral_heads",
+                    "12_VessieInt": "Bladder_int",
+                    "14_CTVProstatePP": "CTV_prostate",
+                    "15_CTVVSPP": "CTV_VS",
+                    "19_RectumInt": "Rectum_int",
+                    "1_patient": "Patient",
+                    "21_PTV60Gy": "PTV_nodes",
+                    "22_PTV44Gy": "PTV_nodes_lombo",
+                    "8_VessieExt": "Bladder_ext",
+                    "9_RectumExt": "Rectum_ext"
+                },
+                "treatment id": "prostate"
+            }
+        },
+        "391858640": {
+            "2.16.840.1.114337.1.1.1454324147.0": {
+                "ReferenceUID": "2.16.840.1.114337.1.1.1454324147.0",
+                "Structures": {
+                    "0_patient": "Patient",
+                    "10_PTV60Gy": "PTV_nodes",
+                    "1_VessieExt": "Bladder_ext",
+                    "2_RectumExt": "Rectum_ext",
+                    "3_TetefemoraleD": "Femoral_heads",
+                    "4_TeteFemoraleG": "Femoral_heads",
+                    "5_CTVProstate": "CTV_prostate",
+                    "6_CTV-VS": "CTV_VS",
+                    "7_RectumInt": "Rectum_int",
+                    "8_VessieInt": "Bladder_int",
+                    "9_PTV44Gy": "PTV_nodes_lombo"
+                },
+                "treatment id": "1:Prostate"
+            }
+        },
+        "438997764": {
+            "1.2.840.113854.142153637913169938248498756365111660563": {
+                "ReferenceUID": "1.2.840.113854.142153637913169938248498756365111660563",
+                "Structures": {
+                    "30_PTVHR": "PTV_prostate"
+                },
+                "treatment id": "PROSTATE"
+            }
+        },
+        "503502163": {
+            "1.2.840.113854.291751752583385070662335936981736187566": {
+                "ReferenceUID": "1.2.840.113854.291751752583385070662335936981736187566",
+                "Structures": {
+                    "1_Patient": "Patient",
+                    "21_RPtransmit": "Undefined",
+                    "22_CTVPROSTATE": "CTV_prostate",
+                    "23_CTVVS": "CTV_VS",
+                    "24_PTVHR": "PTV_prostate",
+                    "25_PTVBR": "PTV_prostate_VS",
+                    "26_VessieINT": "Bladder_int",
+                    "27_RectumINT": "Rectum_int",
+                    "2_VessieExt": "Bladder_ext",
+                    "3_RectumExt": "Rectum_ext",
+                    "4_TeteFemoraleD": "Femoral_heads",
+                    "5_TeteFemoraleG": "Femoral_heads"
+                },
+                "treatment id": "ctvpROSTATE"
+            }
+        },
+        "526343714": {
+            "2.16.840.1.114337.1.1.1451489719.0": {
+                "ReferenceUID": "2.16.840.1.114337.1.1.1451489719.0",
+                "Structures": {
+                    "0_patient": "Patient",
+                    "10_PTVHRart": "PTV_prostate",
+                    "11_PTVBR": "PTV_prostate_VS",
+                    "1_VessieExt": "Bladder_ext",
+                    "2_RectumExt": "Rectum_ext",
+                    "3_TetefemoraleD": "Femoral_heads",
+                    "4_TeteFemoraleG": "Femoral_heads",
+                    "5_CTV-PROSTATE": "CTV_prostate",
+                    "6_CTV-VS": "CTV_VS",
+                    "7_RectumInt": "Rectum_int",
+                    "8_VessieInt": "Bladder_int",
+                    "9_PTVHR": "PTV_prostate"
+                },
+                "treatment id": "1:Prostate ok jvr/sch"
+            }
+        },
+        "574266350": {
+            "2.16.840.1.114337.1.1.1444743747.0": {
+                "ReferenceUID": "2.16.840.1.114337.1.1.1444743747.0",
+                "Structures": {
+                    "0_patient": "Patient",
+                    "10_PTV78Gy": "PTV_prostate",
+                    "11_PTV78art": "PTV_prostate",
+                    "12_PTV46art": "PTV_prostate",
+                    "1_VessieExt": "Bladder_ext",
+                    "2_RectumExt": "Rectum_ext",
+                    "3_TetefemoraleD": "Femoral_heads",
+                    "4_TeteFemoraleG": "Femoral_heads",
+                    "5_CTVprostate": "CTV_prostate",
+                    "6_CTV-VS": "CTV_VS",
+                    "7_RECTUMint": "Rectum_int",
+                    "8_VESSIEint": "Bladder_int",
+                    "9_PTV46Gy": "PTV_nodes"
+                },
+                "treatment id": "1:PROSTATE"
+            },
+            "2.16.840.1.114337.1.1.1447435955.0": {
+                "ReferenceUID": "2.16.840.1.114337.1.1.1447435955.0",
+                "Structures": {
+                    "0_patient": "Patient",
+                    "10_PTV78Gy": "PTV_prostate",
+                    "11_PTV78art": "PTV_prostate",
+                    "12_PTV46art": "PTV_prostate",
+                    "1_VessieExt": "Bladder_ext",
+                    "2_RectumExt": "Rectum_ext",
+                    "3_TetefemoraleD": "Femoral_heads",
+                    "4_TeteFemoraleG": "Femoral_heads",
+                    "5_CTVprostate": "CTV_prostate",
+                    "6_CTV-VS": "CTV_VS",
+                    "7_RECTUMint": "Rectum_int",
+                    "8_VESSIEint": "Bladder_int",
+                    "9_PTV46Gy": "PTV_nodes"
+                },
+                "treatment id": "2:PROSTATE"
+            }
+        },
+        "596083802": {
+            "2.16.840.1.114337.1.1.1437462417.0": {
+                "ReferenceUID": "2.16.840.1.114337.1.1.1437462417.0",
+                "Structures": {
+                    "0_patient": "Patient",
+                    "1_VessieExt": "Bladder_ext",
+                    "2_RectumExt": "Rectum_ext",
+                    "3_TetefemoraleD": "Femoral_heads",
+                    "4_TeteFemoraleG": "Femoral_heads",
+                    "5_Prostate": "Prostate",
+                    "6_VS": "Seminal_vesicles",
+                    "7_sigmoide": "Gastrointestinal_tract",
+                    "8_INTESTIN": "Gastrointestinal_tract",
+                    "9_PTVBR": "PTV_prostate_VS"
+                },
+                "treatment id": "1:prostateOmar"
+            },
+            "2.16.840.1.114337.1.1.1437462491.0": {
+                "ReferenceUID": "2.16.840.1.114337.1.1.1437462491.0",
+                "Structures": {
+                    "0_patient": "Patient",
+                    "1_VessieExt": "Bladder_ext",
+                    "2_RectumExt": "Rectum_ext",
+                    "3_TetefemoraleD": "Femoral_heads",
+                    "4_TeteFemoraleG": "Femoral_heads",
+                    "5_Prostate": "Prostate",
+                    "6_sigmoide": "Gastrointestinal_tract",
+                    "7_INTESTIN": "Gastrointestinal_tract",
+                    "8_PTVHR": "PTV_prostate"
+                },
+                "treatment id": "2:prostateOmar ala"
+            }
+        },
+        "726459891": {
+            "2.16.840.1.114337.1.1.1449846150.0": {
+                "ReferenceUID": "2.16.840.1.114337.1.1.1449846150.0",
+                "Structures": {
+                    "0_patient": "Patient",
+                    "1_VessieExt": "Bladder_ext",
+                    "2_RectumExt": "Rectum_ext",
+                    "3_TetefemoraleD": "Femoral_heads",
+                    "4_TeteFemoraleG": "Femoral_heads",
+                    "5_CTVPROSTATE": "CTV_prostate",
+                    "6_PTV": "PTV_prostate_VS",
+                    "7_VessieInt": "Bladder_int",
+                    "8_RectumInt": "Rectum_int"
+                },
+                "treatment id": "1:prostate"
+            }
+        },
+        "755915664": {
+            "1.2.840.113854.234036247720258182461397178052655447225": {
+                "ReferenceUID": "1.2.840.113854.234036247720258182461397178052655447225",
+                "Structures": {
+                    "10_TetefemoraleD": "Femoral_heads",
+                    "11_TeteFemoraleG": "Femoral_heads",
+                    "13_Prostate": "Prostate",
+                    "17_Moelle": "Spinal_cord",
+                    "18_ParoiRect": "Rectum_wall",
+                    "19_ParoiVessie": "Bladder_wall",
+                    "1_patient": "Patient",
+                    "20_PTV7mm": "PTV_prostate",
+                    "8_VessieExt": "Bladder_ext",
+                    "9_RectumExt": "Rectum_ext"
+                },
+                "treatment id": "prostate"
+            }
+        },
+        "811259530": {
+            "1.2.840.113854.337503477089004988315385188976684487694.1": {
+                "ReferenceUID": "1.2.840.113854.337503477089004988315385188976684487694.1",
+                "Structures": {
+                    "1_Patient": "Patient",
+                    "21_CTVProstate": "CTV_prostate",
+                    "22_CTVVS": "CTV_VS",
+                    "23_VessieINT": "Bladder_int",
+                    "24_RectumINT": "Rectum_int",
+                    "25_PTV60": "PTV_nodes",
+                    "26_PTV44": "PTV_nodes_lombo",
+                    "27_ParoiVes": "PTV_VS",
+                    "28_ParoiRec": "Rectum_wall",
+                    "2_VessieExt": "Bladder_ext",
+                    "3_RectumExt": "Rectum_ext",
+                    "4_TeteFemoraleD": "Femoral_heads",
+                    "5_TeteFemoraleG": "Femoral_heads"
+                },
+                "treatment id": "prostate"
+            }
+        },
+        "821610897": {
+            "2.16.840.1.114337.1.1.1447078315.0": {
+                "ReferenceUID": "2.16.840.1.114337.1.1.1447078315.0",
+                "Structures": {
+                    "0_patient": "Patient",
+                    "10_PTV5440": "PTV_nodes_lombo",
+                    "11_PTV7480art": "PTV_prostate",
+                    "1_VessieExt": "Bladder_ext",
+                    "2_RectumExt": "Rectum_ext",
+                    "3_TetefemoraleD": "Femoral_heads",
+                    "4_TeteFemoraleG": "Femoral_heads",
+                    "5_CTV-PROSTATE": "CTV_prostate",
+                    "6_CTV-VS": "CTV_VS",
+                    "7_RECTUMint": "Rectum_int",
+                    "8_VESSIEint": "Bladder_int",
+                    "9_PTV7480": "PTV_prostate"
+                },
+                "treatment id": "1:Prostate"
+            }
+        },
+        "822665547": {
+            "1.2.840.113854.153818335273099767857230764226312991445.1": {
+                "ReferenceUID": "1.2.840.113854.153818335273099767857230764226312991445.1",
+                "Structures": {
+                    "10_TetefemoraleD": "Femoral_heads",
+                    "11_TeteFemoraleG": "Femoral_heads",
+                    "17_CTVPROSTATE": "CTV_prostate",
+                    "18_CTV-VS": "CTV_VS",
+                    "19_RECTUM": "Rectum_ext",
+                    "1_patient": "Patient",
+                    "20_VESSIE": "Bladder_ext",
+                    "21_PTVBR": "PTV_prostate_VS",
+                    "22_PTVHR": "PTV_prostate",
+                    "23_VessieINT": "Bladder_int",
+                    "24_RectumINT": "Rectum_int",
+                    "25_PV": "Bladder_wall",
+                    "26_PR": "Rectum_wall",
+                    "27_RPtransmitter": "Undefined",
+                    "28_RPcentertransmitter": "Undefined"
+                },
+                "treatment id": "PROSTATE"
+            }
+        },
+        "872121328": {
+            "1.2.840.113854.322620859731221401013135555043715712821.1": {
+                "ReferenceUID": "1.2.840.113854.322620859731221401013135555043715712821.1",
+                "Structures": {
+                    "10_TetefemoraleD": "Femoral_heads",
+                    "11_TeteFemoraleG": "Femoral_heads",
+                    "17_CTVProstate": "CTV_prostate",
+                    "18_CTVVS": "CTV_VS",
+                    "19_RECTUM": "Rectum_ext",
+                    "1_patient": "Patient",
+                    "20_VESSIE": "Bladder_ext",
+                    "21_RectumInt": "Rectum_int",
+                    "22_VessieInt": "Bladder_int",
+                    "23_PTV44Gy": "PTV_nodes_lombo",
+                    "24_PTV60gy": "PTV_nodes"
+                },
+                "treatment id": "Prostate"
+            }
+        },
+        "873817399": {
+            "1.2.840.113854.313299690867870011425423207773531671783": {
+                "ReferenceUID": "1.2.840.113854.313299690867870011425423207773531671783",
+                "Structures": {
+                    "17_reindtvr": "Kidneys",
+                    "18_reingvr": "Kidneys",
+                    "19_tetefemdtevr": "Femoral_heads",
+                    "1_patientvr": "Patient",
+                    "20_tetefemgvr": "Femoral_heads",
+                    "21_moellevr": "Spinal_cord",
+                    "22_intestinvr": "Gastrointestinal_tract",
+                    "23_scrotumvr": "Testicles",
+                    "25_CTVProstate": "CTV_prostate",
+                    "26_CTVVS": "CTV_VS",
+                    "27_ParoiRectale": "Rectum_wall",
+                    "28_ParoiVesicale": "Bladder_wall",
+                    "29_PTVHR": "PTV_prostate",
+                    "33_PTVHRART": "PTV_prostate",
+                    "8_VessieExtvr": "Bladder_ext",
+                    "9_RectumExtvr": "Rectum_ext"
+                },
+                "treatment id": "prostate"
+            }
+        },
+        "92000142": {
+            "2.16.840.1.114337.1.1.1401100273.0": {
+                "ReferenceUID": "2.16.840.1.114337.1.1.1401100273.0",
+                "Structures": {
+                    "0_patient": "Patient",
+                    "10_CTV-VS": "CTV_VS",
+                    "11_CTVNGPP": "CTV_nodes",
+                    "13_RECTUMint": "Rectum_int",
+                    "14_VESSIEint": "Bladder_int",
+                    "15_PTV74Gy": "PTV_prostate",
+                    "16_PTV6140cGy": "PTV_nodes",
+                    "17_PTV46Gy": "PTV_nodes",
+                    "1_ctv74al": "CTV_VS",
+                    "2_VessieExt": "Bladder_ext",
+                    "3_RectumExt": "Rectum_ext",
+                    "4_TetefemoraleD": "Femoral_heads",
+                    "5_TeteFemoraleG": "Femoral_heads",
+                    "6_ctv46al": "CTV_VS",
+                    "8_CTVNDPP": "CTV_nodes",
+                    "9_CTV-prostate": "CTV_prostate"
+                },
+                "treatment id": "1:Prostate"
+            },
+            "2.16.840.1.114337.1.1.1401100324.0": {
+                "ReferenceUID": "2.16.840.1.114337.1.1.1401100324.0",
+                "Structures": {
+                    "0_patient": "Patient",
+                    "10_CTV-VS": "CTV_VS",
+                    "11_CTVNGPP": "CTV_nodes",
+                    "13_RECTUMint": "Rectum_int",
+                    "14_VESSIEint": "Bladder_int",
+                    "15_PTV74Gy": "PTV_prostate",
+                    "16_PTV6140cGy": "PTV_nodes",
+                    "17_PTV46Gy": "PTV_nodes",
+                    "1_ctv74al": "CTV_VS",
+                    "2_VessieExt": "Bladder_ext",
+                    "3_RectumExt": "Rectum_ext",
+                    "4_TetefemoraleD": "Femoral_heads",
+                    "5_TeteFemoraleG": "Femoral_heads",
+                    "6_ctv46al": "CTV_VS",
+                    "8_CTVNDPP": "CTV_nodes",
+                    "9_CTV-prostate": "CTV_prostate"
+                },
+                "treatment id": "3:Prostate"
+            },
+            "2.16.840.1.114337.1.1.1401100441.0": {
+                "ReferenceUID": "2.16.840.1.114337.1.1.1401100441.0",
+                "Structures": {
+                    "0_patient": "Patient",
+                    "10_CTV-VS": "CTV_VS",
+                    "11_CTVNGPP": "CTV_nodes",
+                    "13_RECTUMint": "Rectum_int",
+                    "14_VESSIEint": "Bladder_int",
+                    "15_PTV74Gy": "PTV_prostate",
+                    "16_PTV6140cGy": "PTV_nodes",
+                    "17_PTV46Gy": "PTV_nodes",
+                    "1_ctv74al": "CTV_VS",
+                    "2_VessieExt": "Bladder_ext",
+                    "3_RectumExt": "Rectum_ext",
+                    "4_TetefemoraleD": "Femoral_heads",
+                    "5_TeteFemoraleG": "Femoral_heads",
+                    "6_ctv46al": "CTV_VS",
+                    "8_CTVNDPP": "CTV_nodes",
+                    "9_CTV-prostate": "CTV_prostate"
+                },
+                "treatment id": "2:Prostate"
+            }
+        },
+        "997112194": {
+            "2.16.840.1.114337.1.1.1451918212.0": {
+                "ReferenceUID": "2.16.840.1.114337.1.1.1451918212.0",
+                "Structures": {
+                    "0_patient": "Patient",
+                    "10_PTVBR": "PTV_prostate_VS",
+                    "1_VessieExt": "Bladder_ext",
+                    "2_RectumExt": "Rectum_ext",
+                    "3_TetefemoraleD": "Femoral_heads",
+                    "4_TeteFemoraleG": "Femoral_heads",
+                    "5_CTV-PROSTATE": "CTV_prostate",
+                    "6_CTV-VS": "CTV_VS",
+                    "7_RectumInt": "Rectum_int",
+                    "8_VessieInt": "Bladder_int",
+                    "9_PTVHR": "PTV_prostate"
+                },
+                "treatment id": "1:Prostate"
+            }
+        }
+    }
+}

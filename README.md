@@ -10,3 +10,20 @@ To synchonize these data with our local folder, use:
 ````
 Replace the XXXXXXXXXXX by your user apiKey (Inside "My Account", you can find API key tab)
 
+## JSON file
+
+You can find the metadata in:
+````
+  delpel.json
+````
+
+## Anonymized patient creation:
+
+You can find the script to generate the anonymized patient creation
+````
+  python createPatient.py -h
+````
+You can find the corresponding dictionary used to find the RTStruct names.
+
+To be able to run it, you need https://github.com/OpenSyd/syd_algo
+The creation of the research ipp with encryptId algorithm is private

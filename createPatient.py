@@ -27,8 +27,8 @@ mainDict = {
     "PTV_prostate_VS": ["PTV", "PTVVS", "PTVPROSTATEVS", "PTVBR"],
     "PTV_nodes": ["PTVN", "PTV66"],
     "PTV_nodes_lombo": ["PTV54"],
-    "Bladder_ext": ["VESSIE", "BLADDER", "VESSIEPROFIT", "VESSIEEXT", "BLADDEREXT", "VESSIEENTIER", "BLADDERENTIER"],
-    "Bladder_int": ["VESSIEINT", "BLADDERINT"],
+    "Bladder_ext": ["VESSIE", "BLADDER", "VESSIEPROFIT", "BLADDERPROFIT", "VESSIEEXT", "BLADDEREXT", "VESSIEENTIER", "BLADDERENTIER", "VESSIEEXTPROFIT", "BLADDEREXTPROFIT"],
+    "Bladder_int": ["VESSIEINT", "BLADDERINT", "VESSIEINTPROFIT", "BLADDERINTPROFIT"],
     "Bladder_wall": ["PAROIVESICALE", "BLADDERWALL", "PV", "PVPROFIT"],
     "Rectum_ext": ["RECTUM", "RECTUMPROFIT", "RECTUMEXT", "RECTUMENTIER"],
     "Rectum_int": ["RECTUMINT"],
@@ -49,7 +49,8 @@ mainDict = {
     "Seminal_vesicles": ["VESICULESSEMINALES", "VS"],
     "Lymph_node": ["GANGLIONLINFATIQUE", "GG"],
     "Canal_anal": ["CANALANAL"],
-    "Undefined": ["R", "TEMP", "TRANSMITTER"],
+    "Iliac": ["ILIAQUE", "IL"],
+    "Undefined": ["R", "TEMP", "TRANSMITTER", "CLOU", "NAIL"],
 }
 
 def invertTransfoMat(transfoMat):
@@ -204,14 +205,15 @@ def convertPatientAPI(inputfolder, ipp):
                 hour = file.split(".")[-2][4:6]
                 minute = file.split(".")[-2][6:8]
                 second = file.split(".")[-2][8:10]
-                bashCommand = "cat " + os.path.join(root, file[:-4] + "INI")
-                process = subprocess.Popen(bashCommand.split(), stdout=subprocess.PIPE)
-                output, error = process.communicate()
-                output = output.split(b'\r\n')
-                for element in output:
-                  if element.startswith(b"ReferenceUID="):
-                    dir = element.split(b'=')[1].decode("utf-8")
-                studies[dir]["inputCBCT"] += [(os.path.join(root, file), str(year)+str(month)+str(day)+str(hour)+str(minute)+str(second))]
+                if os.path.isfile(os.path.join(root, file[:-4] + "INI")):
+                    bashCommand = "cat " + os.path.join(root, file[:-4] + "INI")
+                    process = subprocess.Popen(bashCommand.split(), stdout=subprocess.PIPE)
+                    output, error = process.communicate()
+                    output = output.split(b'\r\n')
+                    for element in output:
+                      if element.startswith(b"ReferenceUID="):
+                        dir = element.split(b'=')[1].decode("utf-8")
+                    studies[dir]["inputCBCT"] += [(os.path.join(root, file), str(year)+str(month)+str(day)+str(hour)+str(minute)+str(second))]
             if "CT_SET" in root and file.startswith("1.") and file.endswith(".INI"):
                 dir = os.path.basename(root)
                 studies[dir]["inputINI"] = os.path.join(root, file)
@@ -243,36 +245,42 @@ def convertPatientAPI(inputfolder, ipp):
         #Convert CBCT threw clitk
         cbctIndex = 0
         for cbct in studies[dir]["inputCBCT"]:
-          outputCBCT = os.path.join(outputDirectory, "input", dir, "cbct." + str(cbctIndex) + ".nii")
-          bashCommand = "clitkImageConvert -i " + cbct[0] + " -o " + outputCBCT
-          process = subprocess.Popen(bashCommand.split(), stdout=subprocess.PIPE)
-          output, error = process.communicate()
-          #Read CBCT transformation matrix
-          with open(cbct[0][:-4] + "INI.XVI") as f:
-            for line in f.readlines():
-                if "OnlineToRefTransformCorrection=" in line:
-                    transfoMatrix = np.array([float(t) for t in line.split()[1:]]).reshape(4,4).T
-          transfoMatrix[:-1, -1] *= 10 #convert from cm to mm
-          transfoMatCT2CBCT = transfoCT.dot(transfoMatrix)
-          transfoMatCBCT2CT = invertTransfoMat(transfoMatCT2CBCT)
-          np.savetxt(outputCBCT[:-3] + "mat", transfoMatCBCT2CT)
-          bashCommand = "clitkAffineTransform -i " + outputCBCT + " -o " + outputCBCT + " -m " + outputCBCT[:-3] + "mat" + " --pad=-1024 --transform_grid"
-          process = subprocess.Popen(bashCommand.split(), stdout=subprocess.PIPE)
-          output, error = process.communicate()
-          os.remove(outputCBCT[:-3] + "mat")
-          cbctIndex += 1
+          if os.path.isfile(cbct[0][:-4] + "INI.XVI"):
+            #Read CBCT transformation matrix
+            with open(cbct[0][:-4] + "INI.XVI") as f:
+              for line in f.readlines():
+                  if "OnlineToRefTransformCorrection=" in line:
+                      outputCBCT = os.path.join(outputDirectory, "input", dir, "cbct." + str(cbctIndex) + ".nii")
+                      tempLine = line.split('=')[1]
+                      if tempLine[0] == " ":
+                          tempLine = tempLine[1:]
+                      transfoMatrix = np.array([float(t) for t in tempLine.split()]).reshape(4,4).T
+                      transfoMatrix[:-1, -1] *= 10 #convert from cm to mm
+                      transfoMatCT2CBCT = transfoCT.dot(transfoMatrix)
+                      transfoMatCBCT2CT = invertTransfoMat(transfoMatCT2CBCT)
+                      np.savetxt(outputCBCT[:-3] + "mat", transfoMatCBCT2CT)
+                      bashCommand = "clitkImageConvert -i " + cbct[0] + " -o " + outputCBCT
+                      process = subprocess.Popen(bashCommand.split(), stdout=subprocess.PIPE)
+                      output, error = process.communicate()
+                      bashCommand = "clitkAffineTransform -i " + outputCBCT + " -o " + outputCBCT + " -m " + outputCBCT[:-3] + "mat" + " --pad=-1024 --transform_grid"
+                      process = subprocess.Popen(bashCommand.split(), stdout=subprocess.PIPE)
+                      output, error = process.communicate()
+                      os.remove(outputCBCT[:-3] + "mat")
+                      break
+            cbctIndex += 1
 
         #Convert struct threw clitk and after to .nii
-        bashCommand = "clitkDicomRTStruct2Image -c --mha -i " + studies[dir]["inputRTStruct"] + " -o " + os.path.join(outputDirectory, "input", dir, "tmp.rtstruct.") + " -j " + os.path.join(outputDirectory, "input", dir, "CT.nii")
-        process = subprocess.Popen(bashCommand.split(), stdout=subprocess.PIPE)
-        output, error = process.communicate()
         inputTmpRTStruct = []
-        for root, dirs, files in os.walk(os.path.join(outputDirectory, "input", dir)):
-          for file in files:
-            if file.startswith("tmp.rtstruct.") and file.endswith(".mha"):
-              if not file == file.encode('utf-8', 'replace').decode():
-                  continue
-              inputTmpRTStruct += [file]
+        if not studies[dir]["inputRTStruct"] == "":
+          bashCommand = "clitkDicomRTStruct2Image -c --mha -i " + studies[dir]["inputRTStruct"] + " -o " + os.path.join(outputDirectory, "input", dir, "tmp.rtstruct.") + " -j " + os.path.join(outputDirectory, "input", dir, "CT.nii")
+          process = subprocess.Popen(bashCommand.split(), stdout=subprocess.PIPE)
+          output, error = process.communicate()
+          for root, dirs, files in os.walk(os.path.join(outputDirectory, "input", dir)):
+            for file in files:
+              if file.startswith("tmp.rtstruct.") and file.endswith(".mha"):
+                if not file == file.encode('utf-8', 'replace').decode():
+                    continue
+                inputTmpRTStruct += [file]
 
         structName = []
         for struct in inputTmpRTStruct:
@@ -282,10 +290,12 @@ def convertPatientAPI(inputfolder, ipp):
           os.remove(os.path.join(outputDirectory, "input", dir, struct))
 
         #Anonymise rtstruct
-        anonymizeDicomFile(studies[dir]["inputRTStruct"], os.path.join(outputDirectory, "input", dir, "rtstruct.dcm"), "anonymous", ipp)
+        if not studies[dir]["inputRTStruct"] == "":
+          anonymizeDicomFile(studies[dir]["inputRTStruct"], os.path.join(outputDirectory, "input", dir, "rtstruct.dcm"), "anonymous", ipp)
 
         #Anonymise dicom plan
-        anonymizeDicomFile(studies[dir]["inputPlan"], os.path.join(outputDirectory, "input", dir, "rtplan.dcm"), "anonymous", ipp)
+        if not studies[dir]["inputPlan"] == "":
+          anonymizeDicomFile(studies[dir]["inputPlan"], os.path.join(outputDirectory, "input", dir, "rtplan.dcm"), "anonymous", ipp)
 
         #Anonymise rt dose
         indexDose = 0
@@ -310,8 +320,11 @@ def convertPatientAPI(inputfolder, ipp):
             jsonData['patients'] = {}
             jsonData['header'] = {
                 "key": "ipp research",
-                "id": "Patient id at CLB",
                 "treatment id": "TreatmentID value found in .INI file",
+                "clarity": "Does the patient treated with Clarity (artifacts)",
+                "machine": "Name of the treatment machine",
+                "city": "Treatment city",
+                "complete bladder": "True if the bladder mask is not truncated",
                 "ROI name in rtStruct": "found corresponding name"
             }
         if not ipp in jsonData['patients']:
@@ -320,7 +333,11 @@ def convertPatientAPI(inputfolder, ipp):
           jsonData['patients'][ipp][dir] = {
                               'treatment id': treatmentName,
                               'ReferenceUID': dir,
-                              'Structures': {}
+                              'Structures': {},
+                              'clarity': False,
+                              'city': "Lyon",
+                              'complete bladder': True,
+                              'machine': os.path.basename(os.path.dirname(inputfolder))
                               }
           for struct in structName:
               jsonData['patients'][ipp][dir]['Structures'][struct] = identifyStruct("_".join(struct.split("_")[1:]).upper())

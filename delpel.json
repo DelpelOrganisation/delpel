@@ -144,7 +144,7 @@
                 },
                 "city": "Lyon",
                 "clarity": false,
-                "complete bladder": true,
+                "complete bladder": false,
                 "machine": "saphir",
                 "treatment id": "1:Prostate"
             }
@@ -418,7 +418,7 @@
                 },
                 "city": "Lyon",
                 "clarity": false,
-                "complete bladder": true,
+                "complete bladder": false,
                 "machine": "saphir",
                 "treatment id": "1:prostate"
             },
@@ -443,7 +443,7 @@
                 },
                 "city": "Lyon",
                 "clarity": false,
-                "complete bladder": true,
+                "complete bladder": false,
                 "machine": "saphir",
                 "treatment id": "2:prostate ok aga nbo"
             }
@@ -490,8 +490,8 @@
                     "9_RectumExt": "Rectum_ext"
                 },
                 "city": "Lyon",
-                "clarity": false,
-                "complete bladder": true,
+                "clarity": true,
+                "complete bladder": false,
                 "machine": "saphir",
                 "treatment id": "PROSTATE"
             }
@@ -536,8 +536,8 @@
                     "9_RectumExt": "Rectum_ext"
                 },
                 "city": "Lyon",
-                "clarity": false,
-                "complete bladder": true,
+                "clarity": true,
+                "complete bladder": false,
                 "machine": "saphir",
                 "treatment id": "PROSTATE"
             }
@@ -587,7 +587,7 @@
                 },
                 "city": "Lyon",
                 "clarity": false,
-                "complete bladder": true,
+                "complete bladder": false,
                 "machine": "saphir",
                 "treatment id": "prostate"
             }
@@ -735,7 +735,7 @@
                 },
                 "city": "Lyon",
                 "clarity": false,
-                "complete bladder": true,
+                "complete bladder": false,
                 "machine": "saphir",
                 "treatment id": "PROSTATE"
             }
@@ -813,7 +813,7 @@
                 },
                 "city": "Lyon",
                 "clarity": false,
-                "complete bladder": true,
+                "complete bladder": false,
                 "machine": "saphir",
                 "treatment id": "PTVProstate"
             }
@@ -837,7 +837,7 @@
                     "40_vessieprofit": "Bladder_ext"
                 },
                 "city": "Lyon",
-                "clarity": false,
+                "clarity": true,
                 "complete bladder": true,
                 "machine": "saphir",
                 "treatment id": "PROSTATE"
@@ -859,7 +859,7 @@
                 },
                 "city": "Lyon",
                 "clarity": false,
-                "complete bladder": true,
+                "complete bladder": false,
                 "machine": "saphir",
                 "treatment id": "1:Prostate ok nbo + jde"
             }
@@ -909,7 +909,7 @@
                     "9_TeteFemoraleG": "Femoral_heads"
                 },
                 "city": "Lyon",
-                "clarity": false,
+                "clarity": true,
                 "complete bladder": true,
                 "machine": "saphir",
                 "treatment id": "1:Prostate ok cbe"
@@ -927,7 +927,7 @@
                     "7_VS": "Seminal_vesicles"
                 },
                 "city": "Lyon",
-                "clarity": false,
+                "clarity": true,
                 "complete bladder": true,
                 "machine": "saphir",
                 "treatment id": "2:Prostate"
@@ -949,7 +949,7 @@
                     "9_TeteFemoraleG": "Femoral_heads"
                 },
                 "city": "Lyon",
-                "clarity": false,
+                "clarity": true,
                 "complete bladder": true,
                 "machine": "saphir",
                 "treatment id": "3:Prostate"
@@ -1036,8 +1036,8 @@
                     "9_TeteFemoraleG": "Femoral_heads"
                 },
                 "city": "Lyon",
-                "clarity": false,
-                "complete bladder": true,
+                "clarity": true,
+                "complete bladder": false,
                 "machine": "saphir",
                 "treatment id": "1:prostate abo"
             },
@@ -1058,8 +1058,8 @@
                     "9_TeteFemoraleG": "Femoral_heads"
                 },
                 "city": "Lyon",
-                "clarity": false,
-                "complete bladder": true,
+                "clarity": true,
+                "complete bladder": false,
                 "machine": "saphir",
                 "treatment id": "2:prostate"
             }
@@ -1147,8 +1147,8 @@
                     "8_PTVprofit": "Bladder_wall"
                 },
                 "city": "Lyon",
-                "clarity": false,
-                "complete bladder": true,
+                "clarity": true,
+                "complete bladder": false,
                 "machine": "saphir",
                 "treatment id": "1:Prostate"
             }
@@ -1242,8 +1242,8 @@
                     "8_CTVLogProstate": "CTV_prostate"
                 },
                 "city": "Lyon",
-                "clarity": false,
-                "complete bladder": true,
+                "clarity": true,
+                "complete bladder": false,
                 "machine": "saphir",
                 "treatment id": "1:Prostate ok ela /"
             }
@@ -1365,7 +1365,7 @@
                     "9_TeteFemoraleG": "Femoral_heads"
                 },
                 "city": "Lyon",
-                "clarity": false,
+                "clarity": true,
                 "complete bladder": true,
                 "machine": "saphir",
                 "treatment id": "1:ProstateNonInj ok sch"
@@ -1492,7 +1492,7 @@
                     "8_VessieInt": "Bladder_int"
                 },
                 "city": "Lyon",
-                "clarity": false,
+                "clarity": true,
                 "complete bladder": true,
                 "machine": "saphir",
                 "treatment id": "1:PROSTATE"
@@ -1579,7 +1579,7 @@
                     "8_VessieInt": "Bladder_int"
                 },
                 "city": "Lyon",
-                "clarity": false,
+                "clarity": true,
                 "complete bladder": true,
                 "machine": "saphir",
                 "treatment id": "1:Prostate"
@@ -1690,7 +1690,7 @@
                     "9_PTV46": "PTV_nodes"
                 },
                 "city": "Lyon",
-                "clarity": false,
+                "clarity": true,
                 "complete bladder": true,
                 "machine": "saphir",
                 "treatment id": "1:prostate"
@@ -1707,7 +1707,7 @@
                     "6_PTV78": "PTV_prostate"
                 },
                 "city": "Lyon",
-                "clarity": false,
+                "clarity": true,
                 "complete bladder": true,
                 "machine": "saphir",
                 "treatment id": "2:prostate ok sch"
@@ -1911,7 +1911,7 @@
                     "8_GrainbaseAntD": "Canal_anal"
                 },
                 "city": "Lyon",
-                "clarity": false,
+                "clarity": true,
                 "complete bladder": true,
                 "machine": "saphir",
                 "treatment id": "1:Prostate"
@@ -1937,7 +1937,7 @@
                     "8_GrainbaseAntD": "Canal_anal"
                 },
                 "city": "Lyon",
-                "clarity": false,
+                "clarity": true,
                 "complete bladder": true,
                 "machine": "saphir",
                 "treatment id": "2:Prostate"
@@ -2071,8 +2071,8 @@
                     "9_RectumExt": "Rectum_ext"
                 },
                 "city": "Lyon",
-                "clarity": false,
-                "complete bladder": true,
+                "clarity": true,
+                "complete bladder": false,
                 "machine": "saphir",
                 "treatment id": "CTVProstate"
             }
@@ -2115,8 +2115,8 @@
                     "9_RectumExt": "Rectum_ext"
                 },
                 "city": "Lyon",
-                "clarity": false,
-                "complete bladder": true,
+                "clarity": true,
+                "complete bladder": false,
                 "machine": "saphir",
                 "treatment id": "PROSTATE"
             }
@@ -2138,8 +2138,8 @@
                     "8_TeteFemDt": "Femoral_heads"
                 },
                 "city": "Lyon",
-                "clarity": false,
-                "complete bladder": true,
+                "clarity": true,
+                "complete bladder": false,
                 "machine": "saphir",
                 "treatment id": "prostate"
             }
@@ -2438,7 +2438,7 @@
                     "9_RectumInt": "Rectum_int"
                 },
                 "city": "Lyon",
-                "clarity": false,
+                "clarity": true,
                 "complete bladder": true,
                 "machine": "saphir",
                 "treatment id": "1:Prostate"
@@ -2459,7 +2459,7 @@
                     "9_RectumInt": "Rectum_int"
                 },
                 "city": "Lyon",
-                "clarity": false,
+                "clarity": true,
                 "complete bladder": true,
                 "machine": "saphir",
                 "treatment id": "2:Prostate ok ebo"
@@ -2480,7 +2480,7 @@
                     "9_RectumInt": "Rectum_int"
                 },
                 "city": "Lyon",
-                "clarity": false,
+                "clarity": true,
                 "complete bladder": true,
                 "machine": "saphir",
                 "treatment id": "2:Prostate"
@@ -2501,7 +2501,7 @@
                     "8_PTV": "PTV_prostate_VS"
                 },
                 "city": "Lyon",
-                "clarity": false,
+                "clarity": true,
                 "complete bladder": true,
                 "machine": "saphir",
                 "treatment id": "1:Prostate"
@@ -2763,7 +2763,7 @@
                     "9_RECTUMextProf": "Rectum_ext"
                 },
                 "city": "Lyon",
-                "clarity": false,
+                "clarity": true,
                 "complete bladder": true,
                 "machine": "saphir",
                 "treatment id": "1:prostate  crod/epe"
@@ -2877,7 +2877,7 @@
                 },
                 "city": "Lyon",
                 "clarity": false,
-                "complete bladder": true,
+                "complete bladder": false,
                 "machine": "saphir",
                 "treatment id": "1:Prostate"
             }
@@ -2923,8 +2923,8 @@
                     "5_TeteFemoraleG": "Femoral_heads"
                 },
                 "city": "Lyon",
-                "clarity": false,
-                "complete bladder": true,
+                "clarity": true,
+                "complete bladder": false,
                 "machine": "saphir",
                 "treatment id": "CTVHRProstateBoost"
             }
@@ -2946,7 +2946,7 @@
                     "9_PTV46": "PTV_nodes"
                 },
                 "city": "Lyon",
-                "clarity": false,
+                "clarity": true,
                 "complete bladder": true,
                 "machine": "saphir",
                 "treatment id": "1:Prostate"
@@ -2967,7 +2967,7 @@
                     "9_PTV46": "PTV_nodes"
                 },
                 "city": "Lyon",
-                "clarity": false,
+                "clarity": true,
                 "complete bladder": true,
                 "machine": "saphir",
                 "treatment id": "2:Prostate"
@@ -2995,7 +2995,7 @@
                 },
                 "city": "Lyon",
                 "clarity": false,
-                "complete bladder": true,
+                "complete bladder": false,
                 "machine": "saphir",
                 "treatment id": "PROSTATE"
             }
@@ -3202,7 +3202,7 @@
                 },
                 "city": "Lyon",
                 "clarity": false,
-                "complete bladder": true,
+                "complete bladder": false,
                 "machine": "saphir",
                 "treatment id": "ProstateETVS"
             },
@@ -3232,7 +3232,7 @@
                 },
                 "city": "Lyon",
                 "clarity": false,
-                "complete bladder": true,
+                "complete bladder": false,
                 "machine": "saphir",
                 "treatment id": "ProstateETVS"
             }
@@ -3252,8 +3252,8 @@
                     "8_PTVprofit": "Bladder_wall"
                 },
                 "city": "Lyon",
-                "clarity": false,
-                "complete bladder": true,
+                "clarity": true,
+                "complete bladder": false,
                 "machine": "saphir",
                 "treatment id": "1:Prostate"
             }
@@ -3278,8 +3278,8 @@
                     "9_RectumExt": "Rectum_ext"
                 },
                 "city": "Lyon",
-                "clarity": false,
-                "complete bladder": true,
+                "clarity": true,
+                "complete bladder": false,
                 "machine": "saphir",
                 "treatment id": "PROSTATE"
             }
@@ -3303,7 +3303,7 @@
                 },
                 "city": "Lyon",
                 "clarity": false,
-                "complete bladder": true,
+                "complete bladder": false,
                 "machine": "saphir",
                 "treatment id": "prostate"
             }
@@ -3332,8 +3332,8 @@
                     "9_RectumExt": "Rectum_ext"
                 },
                 "city": "Lyon",
-                "clarity": false,
-                "complete bladder": true,
+                "clarity": true,
+                "complete bladder": false,
                 "machine": "saphir",
                 "treatment id": "PROSTATE"
             }
@@ -3477,8 +3477,8 @@
                     "5_TeteFemoraleG": "Femoral_heads"
                 },
                 "city": "Lyon",
-                "clarity": false,
-                "complete bladder": true,
+                "clarity": true,
+                "complete bladder": false,
                 "machine": "saphir",
                 "treatment id": "CTVProstate"
             }
@@ -3526,8 +3526,8 @@
                     "5_TeteFemoraleG": "Femoral_heads"
                 },
                 "city": "Lyon",
-                "clarity": false,
-                "complete bladder": true,
+                "clarity": true,
+                "complete bladder": false,
                 "machine": "saphir",
                 "treatment id": "PROSTATE"
             }
@@ -3571,8 +3571,8 @@
                     "9_PTV66": "PTV_nodes"
                 },
                 "city": "Lyon",
-                "clarity": false,
-                "complete bladder": true,
+                "clarity": true,
+                "complete bladder": false,
                 "machine": "saphir",
                 "treatment id": "1:prostate"
             },
@@ -3591,8 +3591,8 @@
                     "9_PTV54": "PTV_nodes_lombo"
                 },
                 "city": "Lyon",
-                "clarity": false,
-                "complete bladder": true,
+                "clarity": true,
+                "complete bladder": false,
                 "machine": "saphir",
                 "treatment id": "2:prostate ok nab"
             },
@@ -3613,8 +3613,8 @@
                     "9_RectInt": "Rectum_int"
                 },
                 "city": "Lyon",
-                "clarity": false,
-                "complete bladder": true,
+                "clarity": true,
+                "complete bladder": false,
                 "machine": "saphir",
                 "treatment id": "3:prostate"
             }
@@ -3666,8 +3666,8 @@
                     "9_RectumExt": "Rectum_ext"
                 },
                 "city": "Lyon",
-                "clarity": false,
-                "complete bladder": true,
+                "clarity": true,
+                "complete bladder": false,
                 "machine": "saphir",
                 "treatment id": "prostate"
             }
@@ -3734,8 +3734,8 @@
                     "9_RECTUMint": "Rectum_int"
                 },
                 "city": "Lyon",
-                "clarity": false,
-                "complete bladder": true,
+                "clarity": true,
+                "complete bladder": false,
                 "machine": "saphir",
                 "treatment id": "1:Prostate"
             },
@@ -3755,8 +3755,8 @@
                     "9_VessieInt": "Bladder_int"
                 },
                 "city": "Lyon",
-                "clarity": false,
-                "complete bladder": true,
+                "clarity": true,
+                "complete bladder": false,
                 "machine": "saphir",
                 "treatment id": "2:Prostate2"
             }
@@ -3777,7 +3777,7 @@
                 },
                 "city": "Lyon",
                 "clarity": false,
-                "complete bladder": true,
+                "complete bladder": false,
                 "machine": "saphir",
                 "treatment id": "1:Prostate crod"
             }
@@ -3803,8 +3803,8 @@
                     "9_RectumExt": "Rectum_ext"
                 },
                 "city": "Lyon",
-                "clarity": false,
-                "complete bladder": true,
+                "clarity": true,
+                "complete bladder": false,
                 "machine": "saphir",
                 "treatment id": "CTVPROSTATE"
             }
@@ -3830,8 +3830,8 @@
                     "5_TeteFemoraleG": "Femoral_heads"
                 },
                 "city": "Lyon",
-                "clarity": false,
-                "complete bladder": true,
+                "clarity": true,
+                "complete bladder": false,
                 "machine": "saphir",
                 "treatment id": "prostate"
             }
@@ -3989,7 +3989,7 @@
                     "9_RectumExt": "Rectum_ext"
                 },
                 "city": "Lyon",
-                "clarity": false,
+                "clarity": true,
                 "complete bladder": true,
                 "machine": "saphir",
                 "treatment id": "prostate"
@@ -4040,8 +4040,8 @@
                     "9_PTV44Gy": "PTV_nodes_lombo"
                 },
                 "city": "Lyon",
-                "clarity": false,
-                "complete bladder": true,
+                "clarity": true,
+                "complete bladder": false,
                 "machine": "saphir",
                 "treatment id": "1:Prostate"
             }
@@ -4083,7 +4083,7 @@
                     "9_RectumInt": "Rectum_int"
                 },
                 "city": "Lyon",
-                "clarity": false,
+                "clarity": true,
                 "complete bladder": true,
                 "machine": "saphir",
                 "treatment id": "1:Prostate"
@@ -4115,7 +4115,7 @@
                 },
                 "city": "Lyon",
                 "clarity": false,
-                "complete bladder": true,
+                "complete bladder": false,
                 "machine": "saphir",
                 "treatment id": "PROSTATE"
             }
@@ -4140,7 +4140,7 @@
                 },
                 "city": "Lyon",
                 "clarity": false,
-                "complete bladder": true,
+                "complete bladder": false,
                 "machine": "saphir",
                 "treatment id": "prostate"
             }
@@ -4287,7 +4287,7 @@
                     "9_PTV1": "PTV_prostate_VS"
                 },
                 "city": "Lyon",
-                "clarity": false,
+                "clarity": true,
                 "complete bladder": true,
                 "machine": "saphir",
                 "treatment id": "1:Prostate"
@@ -4307,7 +4307,7 @@
                     "9_PTV2": "PTV_prostate_VS"
                 },
                 "city": "Lyon",
-                "clarity": false,
+                "clarity": true,
                 "complete bladder": true,
                 "machine": "saphir",
                 "treatment id": "2:Prostate"
@@ -4470,7 +4470,7 @@
                 },
                 "city": "Lyon",
                 "clarity": false,
-                "complete bladder": true,
+                "complete bladder": false,
                 "machine": "saphir",
                 "treatment id": "PROSTATE"
             }
@@ -4518,8 +4518,8 @@
                     "5_TeteFemoraleG": "Femoral_heads"
                 },
                 "city": "Lyon",
-                "clarity": false,
-                "complete bladder": true,
+                "clarity": true,
+                "complete bladder": false,
                 "machine": "saphir",
                 "treatment id": "ctvpROSTATE"
             }
@@ -4568,8 +4568,8 @@
                     "5_TeteFemoraleG": "Femoral_heads"
                 },
                 "city": "Lyon",
-                "clarity": false,
-                "complete bladder": true,
+                "clarity": true,
+                "complete bladder": false,
                 "machine": "saphir",
                 "treatment id": "PTVProstate"
             }
@@ -4916,7 +4916,7 @@
                     "9_PTVBR": "PTV_prostate_VS"
                 },
                 "city": "Lyon",
-                "clarity": false,
+                "clarity": true,
                 "complete bladder": true,
                 "machine": "saphir",
                 "treatment id": "1:prostateOmar"
@@ -4935,7 +4935,7 @@
                     "8_PTVHR": "PTV_prostate"
                 },
                 "city": "Lyon",
-                "clarity": false,
+                "clarity": true,
                 "complete bladder": true,
                 "machine": "saphir",
                 "treatment id": "2:prostateOmar ala"
@@ -4979,7 +4979,7 @@
                     "9_ctvgg": "CTV_VS"
                 },
                 "city": "Lyon",
-                "clarity": false,
+                "clarity": true,
                 "complete bladder": true,
                 "machine": "saphir",
                 "treatment id": "1:prostate ok ebook ela"
@@ -5000,7 +5000,7 @@
                     "9_ctvgg": "CTV_VS"
                 },
                 "city": "Lyon",
-                "clarity": false,
+                "clarity": true,
                 "complete bladder": true,
                 "machine": "saphir",
                 "treatment id": "2:prostate"
@@ -5024,7 +5024,7 @@
                 },
                 "city": "Lyon",
                 "clarity": false,
-                "complete bladder": true,
+                "complete bladder": false,
                 "machine": "saphir",
                 "treatment id": "PROSTATE"
             }
@@ -5044,7 +5044,7 @@
                     "8_PTV2": "PTV_prostate_VS"
                 },
                 "city": "Lyon",
-                "clarity": false,
+                "clarity": true,
                 "complete bladder": true,
                 "machine": "saphir",
                 "treatment id": "1:Prostate"
@@ -5065,7 +5065,7 @@
                     "9_PTV1": "PTV_prostate_VS"
                 },
                 "city": "Lyon",
-                "clarity": false,
+                "clarity": true,
                 "complete bladder": true,
                 "machine": "saphir",
                 "treatment id": "2:Prostate"
@@ -5090,8 +5090,8 @@
                     "9_RectumExt": "Rectum_ext"
                 },
                 "city": "Lyon",
-                "clarity": false,
-                "complete bladder": true,
+                "clarity": true,
+                "complete bladder": false,
                 "machine": "saphir",
                 "treatment id": "CTVHR PROSTATE"
             }
@@ -5200,7 +5200,7 @@
                 },
                 "city": "Lyon",
                 "clarity": false,
-                "complete bladder": true,
+                "complete bladder": false,
                 "machine": "saphir",
                 "treatment id": "1:Prostate"
             },
@@ -5218,7 +5218,7 @@
                 },
                 "city": "Lyon",
                 "clarity": false,
-                "complete bladder": true,
+                "complete bladder": false,
                 "machine": "saphir",
                 "treatment id": "2:Prostate"
             }
@@ -5381,7 +5381,7 @@
                 },
                 "city": "Lyon",
                 "clarity": false,
-                "complete bladder": true,
+                "complete bladder": false,
                 "machine": "saphir",
                 "treatment id": "PROSTATE"
             }
@@ -5403,8 +5403,8 @@
                     "9_CTV-VS": "CTV_VS"
                 },
                 "city": "Lyon",
-                "clarity": false,
-                "complete bladder": true,
+                "clarity": true,
+                "complete bladder": false,
                 "machine": "saphir",
                 "treatment id": "1:prostate hpr / ela"
             },
@@ -5424,8 +5424,8 @@
                     "9_CTV-VS": "CTV_VS"
                 },
                 "city": "Lyon",
-                "clarity": false,
-                "complete bladder": true,
+                "clarity": true,
+                "complete bladder": false,
                 "machine": "saphir",
                 "treatment id": "2:prostate"
             }
@@ -5495,7 +5495,7 @@
                     "9_PTV7480cGy": "PTV_prostate"
                 },
                 "city": "Lyon",
-                "clarity": false,
+                "clarity": true,
                 "complete bladder": true,
                 "machine": "saphir",
                 "treatment id": "1:Prostate ok cbe"
@@ -5518,8 +5518,8 @@
                     "9_RectumInt": "Rectum_int"
                 },
                 "city": "Lyon",
-                "clarity": false,
-                "complete bladder": true,
+                "clarity": true,
+                "complete bladder": false,
                 "machine": "saphir",
                 "treatment id": "1:prostateok kma"
             },
@@ -5536,8 +5536,8 @@
                     "7_PTV66Gy": "PTV_nodes"
                 },
                 "city": "Lyon",
-                "clarity": false,
-                "complete bladder": true,
+                "clarity": true,
+                "complete bladder": false,
                 "machine": "saphir",
                 "treatment id": "2:prostate"
             }
@@ -5673,7 +5673,7 @@
                 },
                 "city": "Lyon",
                 "clarity": false,
-                "complete bladder": true,
+                "complete bladder": false,
                 "machine": "saphir",
                 "treatment id": "PTVProstate"
             }
@@ -5697,8 +5697,8 @@
                     "5_TeteFemoraleG": "Femoral_heads"
                 },
                 "city": "Lyon",
-                "clarity": false,
-                "complete bladder": true,
+                "clarity": true,
+                "complete bladder": false,
                 "machine": "saphir",
                 "treatment id": "prostate"
             }
@@ -5766,8 +5766,8 @@
                     "8_PTVprofit": "Bladder_wall"
                 },
                 "city": "Lyon",
-                "clarity": false,
-                "complete bladder": true,
+                "clarity": true,
+                "complete bladder": false,
                 "machine": "saphir",
                 "treatment id": "1:Prostate ok ebo"
             }
@@ -5793,7 +5793,7 @@
                     "9_INTESTINS": "Gastrointestinal_tract"
                 },
                 "city": "Lyon",
-                "clarity": false,
+                "clarity": true,
                 "complete bladder": true,
                 "machine": "saphir",
                 "treatment id": "1:Prostate ok sch ok ela"
@@ -5823,7 +5823,7 @@
                 },
                 "city": "Lyon",
                 "clarity": false,
-                "complete bladder": true,
+                "complete bladder": false,
                 "machine": "saphir",
                 "treatment id": "PROSTATE"
             }
@@ -5873,8 +5873,8 @@
                     "28_RPcentertransmitter": "Undefined"
                 },
                 "city": "Lyon",
-                "clarity": false,
-                "complete bladder": true,
+                "clarity": true,
+                "complete bladder": false,
                 "machine": "saphir",
                 "treatment id": "PROSTATE"
             }
@@ -5963,8 +5963,8 @@
                     "24_PTV60gy": "PTV_nodes"
                 },
                 "city": "Lyon",
-                "clarity": false,
-                "complete bladder": true,
+                "clarity": true,
+                "complete bladder": false,
                 "machine": "saphir",
                 "treatment id": "Prostate"
             }
@@ -6087,7 +6087,7 @@
                 },
                 "city": "Lyon",
                 "clarity": false,
-                "complete bladder": true,
+                "complete bladder": false,
                 "machine": "saphir",
                 "treatment id": "1:Prostate"
             }
@@ -6109,8 +6109,8 @@
                     "5_TeteFemoraleG": "Femoral_heads"
                 },
                 "city": "Lyon",
-                "clarity": false,
-                "complete bladder": true,
+                "clarity": true,
+                "complete bladder": false,
                 "machine": "saphir",
                 "treatment id": "PROSTATE"
             }
@@ -6324,7 +6324,7 @@
                     "9_PTV1": "PTV_prostate_VS"
                 },
                 "city": "Lyon",
-                "clarity": false,
+                "clarity": true,
                 "complete bladder": true,
                 "machine": "saphir",
                 "treatment id": "1:prostate"
@@ -6344,7 +6344,7 @@
                     "9_PTV2": "PTV_prostate_VS"
                 },
                 "city": "Lyon",
-                "clarity": false,
+                "clarity": true,
                 "complete bladder": true,
                 "machine": "saphir",
                 "treatment id": "2:prostate"
@@ -6369,8 +6369,8 @@
                     "9_PTV46Gy": "PTV_nodes"
                 },
                 "city": "Lyon",
-                "clarity": false,
-                "complete bladder": true,
+                "clarity": true,
+                "complete bladder": false,
                 "machine": "saphir",
                 "treatment id": "1:Prostate ok nab + jde"
             }
@@ -6423,7 +6423,7 @@
                 },
                 "city": "Lyon",
                 "clarity": false,
-                "complete bladder": true,
+                "complete bladder": false,
                 "machine": "saphir",
                 "treatment id": "1:Prostate"
             }
@@ -6472,7 +6472,7 @@
                     "6_CTVProstate": "CTV_prostate"
                 },
                 "city": "Lyon",
-                "clarity": false,
+                "clarity": true,
                 "complete bladder": true,
                 "machine": "saphir",
                 "treatment id": "PROSTATE"
@@ -6495,7 +6495,7 @@
                     "9_PTV50": "PTV_nodes_lombo"
                 },
                 "city": "Lyon",
-                "clarity": false,
+                "clarity": true,
                 "complete bladder": true,
                 "machine": "saphir",
                 "treatment id": "1:Prostate ok eca ok ela"
@@ -6516,7 +6516,7 @@
                     "9_PTV50": "PTV_nodes_lombo"
                 },
                 "city": "Lyon",
-                "clarity": false,
+                "clarity": true,
                 "complete bladder": true,
                 "machine": "saphir",
                 "treatment id": "2:Prostate"
@@ -6561,7 +6561,7 @@
                 },
                 "city": "Lyon",
                 "clarity": false,
-                "complete bladder": true,
+                "complete bladder": false,
                 "machine": "saphir",
                 "treatment id": "1:prostate"
             }
@@ -6585,8 +6585,8 @@
                     "7_CTVVesiculesSeminales": "Seminal_vesicles"
                 },
                 "city": "Lyon",
-                "clarity": false,
-                "complete bladder": true,
+                "clarity": true,
+                "complete bladder": false,
                 "machine": "saphir",
                 "treatment id": "PROSTATE"
             }
@@ -6652,7 +6652,7 @@
                 },
                 "city": "Lyon",
                 "clarity": false,
-                "complete bladder": true,
+                "complete bladder": false,
                 "machine": "saphir",
                 "treatment id": "1:Prostate"
             }

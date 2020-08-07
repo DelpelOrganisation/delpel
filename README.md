@@ -27,3 +27,10 @@ You can find the corresponding dictionary used to find the RTStruct names.
 
 To be able to run it, you need https://github.com/OpenSyd/syd_algo
 The creation of the research ipp with encryptId algorithm is private
+
+## Creation of snapshots:
+
+To create a pdf with patient slices, run
+````
+  python snapshot.py
+````
